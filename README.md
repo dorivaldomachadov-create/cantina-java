@@ -16,7 +16,7 @@ criação de pedidos, controlo de estoque e geração de facturas.
 - Dorivaldo Machado — Líder
 - Flejon Morais
 - Eduardo Luís
-- Elias Amadeu
+- Elias Amador
 - Esperança Pitra
 
 ## 🚀 Como correr (Fase 1)
