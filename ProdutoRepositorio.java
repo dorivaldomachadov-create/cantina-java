@@ -1,0 +1,27 @@
+package cantina.repositorio;
+
+import cantina.modelo.Produto;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProdutoRepositorio {
+    private List<Produto> produtos = new ArrayList<>();
+
+    public void salvar(Produto produto) {
+        produtos.add(produto);
+    }
+
+  
+    public List<Produto> listarTodos() {
+        return produtos;
+    }
+
+    public Produto buscarPorId(int id) {
+        for (Produto produto : produtos) {
+            if (produto.getId() == id) {
+                return produto;
+            }
+        }
+        return null;
+    }
+}
