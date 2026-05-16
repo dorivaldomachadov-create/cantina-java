@@ -1,0 +1,2 @@
+Aguá;pura;1;120.0;8
+Bolacha;Maria;2;100.0;20
